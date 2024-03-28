@@ -1,0 +1,255 @@
+{
+    "nodes": {
+        "NPOP_Sylva_Jct_Wye_00": {
+            "position": {
+                "x": 25324.50,
+                "y": 624.86,
+                "z": -846.98
+            },
+            "rotation": {
+                "x": 0,
+                "y": 110.38,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_01": {
+            "position": {
+                "x": 25374.69,
+                "y": 624.86,
+                "z": -875.02
+            },
+            "rotation": {
+                "x": 0,
+                "y": 117.69,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_02": {
+            "position": {
+                "x": 25288.06,
+                "y": 625.60,
+                "z": -529.94
+            },
+            "rotation": {
+                "x": 0,
+                "y": 24.39,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_03": {
+            "position": {
+                "x": 25267.34,
+                "y": 625.60,
+                "z": -660.46
+            },
+            "rotation": {
+                "x": 0,
+                "y": 181.17,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_04": {
+            "position": {
+                "x": 25053.09,
+                "y": 624.08,
+                "z": -899.08
+            },
+            "rotation": {
+                "x": 0,
+                "y": 62.01,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_05": {
+            "position": {
+                "x": 25121.00,
+                "y": 624.60,
+                "z": -860.16
+            },
+            "rotation": {
+                "x": 0,
+                "y": 241.42,
+                "z": 0
+            },
+            "flipSwitchStand": true
+        },
+        "NPOP_Sylva_Jct_Wye_06": {
+            "position": {
+                "x": 25329.89,
+                "y": 624.86,
+                "z": -848.98
+            },
+            "rotation": {
+                "x": 0,
+                "y": 110.38,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_07": {
+            "position": {
+                "x": 25349.24,
+                "y": 624.86,
+                "z": -856.17
+            },
+            "rotation": {
+                "x": 0,
+                "y": 110.38,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_08": {
+            "position": {
+                "x": 25543.98,
+                "y": 624.86,
+                "z": -917.33
+            },
+            "rotation": {
+                "x": 0,
+                "y": 134.58,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_09": {
+            "position": {
+                "x": 25548.06,
+                "y": 624.86,
+                "z": -921.40
+            },
+            "rotation": {
+                "x": 0,
+                "y": 134.58,
+                "z": 0
+            },
+            "flipSwitchStand": false
+        }
+    },
+    "segments": {
+        "Shp7": {
+            "startId": "NPOP_Sylva_Jct_Wye_02"
+        },
+        "Stvw": {
+            "endId": "NPOP_Sylva_Jct_Wye_04"
+        },
+        "S93l": {
+            "endId": "NPOP_Sylva_Jct_Wye_08"
+        },
+        "SPOP_Sylva_Jct_Wye_00": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_00",
+            "endId": "NPOP_Sylva_Jct_Wye_06",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_01": {
+            "style": "Standard",
+            "startId": "Ndup",
+            "endId": "NPOP_Sylva_Jct_Wye_02",
+            "priority": 0,
+            "groupId": ""
+        },
+        "SPOP_Sylva_Jct_Wye_02": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_02",
+            "endId": "NPOP_Sylva_Jct_Wye_03",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_03": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_00",
+            "endId": "NPOP_Sylva_Jct_Wye_03",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_04": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_05",
+            "endId": "NPOP_Sylva_Jct_Wye_04",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_05": {
+            "style": "Standard",
+            "startId": "Nvoz",
+            "endId": "NPOP_Sylva_Jct_Wye_04",
+            "priority": 1,
+            "groupId": ""
+        },
+        "SPOP_Sylva_Jct_Wye_06": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_00",
+            "endId": "NPOP_Sylva_Jct_Wye_05",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_07": {
+            "style": "Bridge",
+            "startId": "NPOP_Sylva_Jct_Wye_06",
+            "endId": "NPOP_Sylva_Jct_Wye_07",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_08": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_07",
+            "endId": "NPOP_Sylva_Jct_Wye_08",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_09": {
+            "style": "Standard",
+            "startId": "NPOP_Sylva_Jct_Wye_08",
+            "endId": "Nadh",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        }
+    },
+    "areas": {
+        "sylva": {
+            "industries": {
+              "POP_Sylva_Jct_Wye": {
+                "name": "Sylva Expansion",
+                "localPosition": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "usesContract": false,
+                "components": {
+                  "sylva-jct-wye-site": {
+                    "name": "Sylva Expansion Site",
+                    "type": "Model.OpsNew.ProgressionIndustryComponent",
+                    "carTypeFilter": "*",
+                    "sharedStorage": true,
+                    "trackSpans": [
+                        "PPOP_Sylva_Jct_Wye_01"
+                      ]
+                  }
+                }
+              }
+            }
+          }
+    },
+    "spans": {
+        "PPOP_Sylva_Jct_Wye_01": {
+            "upper": {
+              "segmentId": "Sx93",
+              "end": "Start",
+              "distance": 0
+            },
+            "lower": {
+              "segmentId": "SPOP_Sylva_Jct_Wye_01",
+              "end": "Start",
+              "distance": 0
+            }
+          }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "items": {
+      "POP_Sylva_Jct_Wye": {
+        "identifier": "POP_Sylva_Jct_Wye",
+        "name": "Sylva Junction Wye",
+        "groupIds": [
+          "POP_Sylva_Jct_Wye"
+        ],
+        "description": "Adds a wye junction at Sylva with the Class 1 mainline, useful for turning around passengers trains.",
+        "prerequisiteSections": [
+          "s1"
+        ],
+        "trackSpans": [
+          "SPOP_Sylva_Jct_Wye_01",
+          "Shp7"
+        ],
+        "industryComponent": "POP_Sylva_Jct_Wye.sylva-jct-wye-site",
+        "area": "sylva",
+        "deliveryPhases": [
+          {
+            "cost": 2000,
+            "deliveries": [
+              {
+                "carTypeFilter": "GB*",
+                "count": 4,
+                "load": "ballast",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "GB*",
+                "count": 2,
+                "load": "gravel",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "GB*",
+                "count": 2,
+                "load": "ties",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "FM*",
+                "count": 1,
+                "load": "rails",
+                "direction": 0
+              }
+            ]
+          },
+          {
+            "cost": 2000,
+            "deliveries": [
+              {
+                "carTypeFilter": "GB*",
+                "count": 4,
+                "load": "ballast",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "GB*",
+                "count": 2,
+                "load": "gravel",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "GB*",
+                "count": 2,
+                "load": "ties",
+                "direction": 0
+              },
+              {
+                "carTypeFilter": "FM*",
+                "count": 1,
+                "load": "rails",
+                "direction": 0
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+{
+    "manifestVersion": 5,
+    "id": "PrinceOfPluto.SylvaJctWye",
+    "name": "Pluto's Sylva Junction Wye",
+    "version": "1.0",
+    "requires": [
+      {
+        "id": "railloader",
+        "notBefore": "1.7.2"
+      },
+      {
+        "id": "Zamu.StrangeCustoms",
+        "notBefore": "1.6.24074.728"
+      },
+      {
+        "id": "AlinaNova21.AlinasMapMod"
+      }
+    ],
+    "mixintos": {
+      "game-graph": "file(game-graph.json)",
+      "game-migrations": "file(game-migrations.json)",
+      "AlinasMapMod": "file(AlinasMapModMixin.json)",
+      "progressions": "file(progressions.json)"
+    }
+  }
