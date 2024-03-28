@@ -4,6 +4,8 @@ This adds a new wye junction in Sylva that connects with the Atlantic Railway's 
 
 All mods are installable through [Railloader](https://railroader.stelltis.ch/)
 
+![Screenshot 2024-03-28 024815](https://github.com/PrinceOfPluto/sylva-jct-wye/assets/110989109/7ea3a8ef-a3fc-4eca-b867-852ce8f77235)
+
 ## Installation
 
 ### Requirements:
