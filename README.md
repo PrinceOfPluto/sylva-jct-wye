@@ -15,7 +15,7 @@ All mods are installable through [Railloader](https://railroader.stelltis.ch/)
 
 ### Steps:
 
-1. Download the latest release.
+1. Download the [latest release](https://github.com/PrinceOfPluto/sylva-jct-wye/releases).
 2. Drop onto Railloader.exe
 3. Done!
 
