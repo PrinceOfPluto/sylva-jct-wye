@@ -72,7 +72,7 @@
             "prerequisiteSections": {
               "s1": true
             },
-            "description": "Adds a wye junction at Sylva with the Class 1 mainline, useful for turning around passengers trains."
+            "description": "Adds a wye junction in Sylva that connects with the Atlantic Railway's Class 1 mainline. This is very useful for turning around passenger trains after the last stop at Sylva Depot. The wye can accommodate even larger locomotives like the B-65 Berkshire."
           }
         }
       }
