@@ -129,6 +129,19 @@
                 "z": 0
             },
             "flipSwitchStand": false
+        },
+        "NPOP_Sylva_Jct_Wye_10": {
+            "position": {
+                "x": 25978.45,
+                "y": 627.37,
+                "z": -1155.51
+            },
+            "rotation": {
+                "x": 0,
+                "y": 99.67,
+                "z": 0
+            },
+            "flipSwitchStand": false
         }
     },
     "segments": {
@@ -208,6 +221,13 @@
             "style": "Standard",
             "startId": "NPOP_Sylva_Jct_Wye_08",
             "endId": "Nadh",
+            "priority": 0,
+            "groupId": "POP_Sylva_Jct_Wye"
+        },
+        "SPOP_Sylva_Jct_Wye_Nadh_to_NPOP_Sylva_Jct_Wye_10": {
+            "style": "Standard",
+            "startId": "Nadh",
+            "endId": "NPOP_Sylva_Jct_Wye_10",
             "priority": 0,
             "groupId": "POP_Sylva_Jct_Wye"
         }
